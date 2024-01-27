@@ -1,0 +1,316 @@
+<html>
+    <link rel="stylesheet" href="w3.css" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1" />
+
+    <div class="w3-bar w3-card-4">
+        <button class="w3-bar-item w3-card-2 w3-hover-gray w3-large w3-button w3-left" style="margin-left:10%; font-weight:700" onclick="openKota('My')">My profile</button>
+        <div class="w3-dropdown-hover w3-card-2 w3-large w3-right " style="margin-right:10%">
+            <button class="w3-button" style="font-weight: 700">Profile Member</button>
+            <div class="w3-dropdown-content w3-bar-block w3-gray w3-card-4 w3-round-large">
+                <button class="w3-bar-item w3-round-large w3-button" onclick="openKota('Jiu')">Jiu</button>
+                <button class="w3-bar-item w3-round-large w3-button" onclick="openKota('Sua')">Sua</button>
+                <button class="w3-bar-item w3-round-large w3-button" onclick="openKota('Siyeon')">Siyeon</button>
+                <button class="w3-bar-item w3-round-large w3-button" onclick="openKota('Handong')">Handong</button>
+                <button class="w3-bar-item w3-round-large w3-button" onclick="openKota('Yoohyeon')">Yoohyeon</button>
+                <button class="w3-bar-item w3-round-large w3-button" onclick="openKota('Dami')">Dami</button>
+                <button class="w3-bar-item w3-round-large w3-button" onclick="openKota('Gahyeon')">Gahyeon</button>
+            </div>
+        </div>
+        <button class="w3-bar-item w3-card-2 w3-large w3-button w3-right" style="font-weight:700" onclick="openKota('New')">New Release</button>
+        <button class="w3-bar-item w3-card-2 w3-large w3-button w3-right" style="font-weight:700" onclick="openKota('Home')">Home</button>
+    </div>
+
+    <style>
+        body{
+            background-image: url(Dreamcatcher.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <div id="Home" class="w3-container kota w3-animate-zoom" style="display:block">
+        <center>
+        <h1 style="font-weight:700">Welcome to Dreamworld</h1>
+    </div>
+
+    <div id="My" class="w3-container kota w3-animate-top" style="display:none">
+        <center>
+        <h1 style="font-weight:700">My profile</h1>
+        </center>
+        <div class="w3-col s4 w3-animate-left">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 75%; margin-left: 25%; margin-top : 20%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 10%;"> <strong>This My Fashion</strong></h1>
+                    <a href="https://www.kpopchart.net/idol-celeb/pr-9166283121/dreamcatcher-umumkan-nama-fan-club-resmi#:~:text=Pada%20akhir%20video%20tersebut%20tertulis,diartikan%20sebagai%20mimpi%20atau%20fantasi." class="w3-button w3-card-4 w3-black" style="padding: 0; margin: -37%; position: absolute;"><img src="Insomnia.jpeg" alt="Insomnia" width="500px"></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-right">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 100%; margin-left: 50%">
+                <div class="w3-container w3-left-align">
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%"> Nama : Muhammad Shahril Ramdan <br> Nim : 10123127 <br> Kelas : IF-3 <br> Bias : Gahyeon <br> Lagu fav : Rising <br> My Socmed : </h1>
+                    <a href="https://www.instagram.com/a.reaall?utm_source=qr&igsh=MWg2NmF6Y2hsZngxYw==" class="w3-button" style="margin-left: 20%; margin-bottom: 10%"><img src="instagram.webp" alt="instagram" width="75px"></a>
+                    <a href="https://www.facebook.com/m.shahril.10?mibextid=ZbWKwL" class="w3-button" style="margin-left: 10%; margin-bottom: 10%"><img src="Facebook.svg" alt="facebook" width="75px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="New" class="w3-container kota" style="display:none">
+        <center>
+        <h1 class="w3-animate-fading" style="font-weight: 700">New Release</h1>
+        </center>
+
+        <div class="w3-col s4 w3-animate-left">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 75%; margin-left: 10%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 10%;"> <strong>This My Fashion</strong></h1>
+                    <iframe width="300" height="185" src="https://www.youtube.com/embed/CWGCwKCP_0k?si=gn1F_MLITDw8Q9C7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-top">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 75%; margin-left: 12%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 10%;"> <strong>OOTD</strong></h1>
+                    <iframe width="300" height="185" src="https://www.youtube.com/embed/OKcRvqJlQog?si=yr_JOPon_imB_nuf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-right">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 75%; margin-left: 12%;">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 10%;"> <strong>Rising</strong></h1>
+                    <iframe width="300" height="185" src="https://www.youtube.com/embed/Fbmcb11fh0w?si=oAJUZUmEPFIph8om" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-right">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 75%; margin-left: 10%; margin-top : 5%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 10%;"> <strong>Shatter</strong></h1>
+                    <iframe width="300" height="185" src="https://www.youtube.com/embed/Cwx8LTB9PGI?si=ubLUlKkDgJGUkFKD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-bottom">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 75%; margin-left: 12%; margin-top : 5%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 10%;"> <strong>Other Discograpy</strong></h1>
+                    </center>
+                    <a href="https://www.youtube.com/@Dreamcatcherofficial" class="w3-button" style="margin-left: 10%; margin-bottom: 25%"><img src="Youtube.svg" alt="youtube" width="80px"></a>
+                    <a href="https://open.spotify.com/artist/5V1qsQHdXNm4ZEZHWvFnqQ?si=iOnfsR5uQI21d7ZYcz5ShQ" class="w3-button" style="margin-left: 5%; margin-bottom: 25%"><img src="Spotify.webp" alt="spotify" width="80px"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-left">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 75%; margin-left: 12%; margin-top : 5%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 10%;"> <strong>We Are Young</strong></h1>
+                    <iframe width="300" height="185" src="https://www.youtube.com/embed/jsEzGTVx_qg?si=iipEKNk7-EQjVlJH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Jiu" class="w3-container kota w3-animate-top" style="display:none">
+        <center>
+        <h1 class="w3-animate-zoom" style="font-weight: 700">Jiu</h1>
+        </center>
+        <div class="w3-col s4 w3-animate-left">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 25%; margin-left: 70%; margin-top : 10%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 10%;"> <strong>This My Fashion</strong></h1>
+                    <a href="https://id.wikipedia.org/wiki/JiU" class="w3-button w3-round-xxlarge w3-card-4 w3-black" style="padding: 0; margin: -37%; position: absolute;"><img src="Jiu.jpeg" alt="Jiu" width="350px" class="w3-round"></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-right">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 100%; margin-left: 70%; margin-top: 20%">
+                <div class="w3-container w3-left-align">
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%"> Nama panggung : JiU (지유)<br> Nama asli : Kim Min-ji (김민지)<br> Lahir : 17 Mei 1994 <br> Posisi : Visual, Leader, Lead vocalist, Lead dancer <br> Kebangsaan : Korea <br> <font color="red">Nightmare : Fear of being chased </font><br> Instagram : <a href="https://www.instagram.com/minjiu__u?igsh=MXEzb3g2YmphanpidA==">minjiu__u</a> </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Sua" class="w3-container kota" style="display:none">
+        <center>
+        <h1 class="w3-animate-fading" style="font-weight: 700">Sua</h1>
+        </center>
+        <div class="w3-col s2 w3-animate-left">
+            <div class=" w3-gray w3-hover-black w3-round-xlarge transition" style=" margin-left: 70%; margin-top : 0%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <a href="https://id.wikipedia.org/wiki/SuA" class="w3-button w3-round-xxlarge w3-card-4 w3-black" style="padding: 0 ; margin-left:115% ;position: absolute"><img src="Sua.jpeg" alt="Sua" width="350px" class="w3-round"></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-right">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 100%; margin-left: 110%; margin-top: 20%">
+                <div class="w3-container w3-left-align">
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%"> Nama panggung : SuA (수아)<br> Nama asli : Kim Bo Ra(김보라)<br> Lahir : 10 Agustus 1994 <br> Posisi : Main dancer, Lead rapper, Lead vocalist <br> Kebangsaan : Korea <br> <font color="red">Nightmare : Fear of restraint </font><br> Instagram : <a href="https://www.instagram.com/sualelbora?igsh=enQ0eW00ZXN5YzNk">sualelbora</a> </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Siyeon" class="w3-container kota w3-animate-zoom" style="display:none">
+        <center>
+        <h1 class="w3-animate-top" style="font-weight: 700">Siyeon</h1>
+        </center>
+
+        <div class="w3-col s1 w3-animate-right">
+            <div class=" w3-gray w3-round-xlarge transition" style=" margin-left: 70%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <a href="https://id.wikipedia.org/wiki/Lee_Si-yeon_(penyanyi)" class="w3-button w3-round-xxlarge w3-card-4 w3-black" style="padding: 0 ; margin-left:115% ;position: absolute;"><img src="Siyeon.jpeg" alt="Siyeon" width="500px" ></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-left">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 100%; margin-left: 175%; margin-top: 30%">
+                <div class="w3-container w3-left-align">
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%"> Nama panggung : Siyeon (시연)<br> Nama asli : Lee Si Yeon (이시연)<br> Lahir : 1 oktober 1995 <br> Posisi : Main vocalist, dancer<br> Kebangsaan : Korea <br> <font color="red">Nightmare : Claustrophobia </font><br> Instagram : <a href="https://www.instagram.com/______s2ing?igsh=MTZ2b21xZWdhMW41MQ==">______s2ing</a> </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Handong" class="w3-container kota" style="display:none">
+        <center>
+        <h1 class="w3-animate-fading" style="font-weight: 700">Handong</h1>
+        </center>
+
+        <div class="w3-col s1 w3-animate-left">
+            <div class=" w3-gray w3-round-xlarge transition" style=" margin-left: 200%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <a href="https://id.wikipedia.org/wiki/Han_Dong" class="w3-button w3-round-xxlarge w3-card-4 w3-black" style="padding: 0 ; margin-left:350% ;position: absolute;"><img src="Handong.jpeg" alt="Handong" width="500px" ></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-right">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 100%; margin-left: 20%; margin-top: 5%">
+                <div class="w3-container w3-left-align">
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%"> Nama panggung : Handong (한동)<br> Nama asli : Han Dong (韓東)<br> Lahir : 26 Maret 1996 <br> Posisi : Sub vocalist, dancer<br> Kebangsaan : China <br> <font color="red">Nightmare : Scopophobia </font><br> Instagram : <a href="https://www.instagram.com/0.0_handong?igsh=MWx5dXNucnhuYndleg==">0.0_handong</a> </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Yoohyeon" class="w3-container kota w3-animate-zoom" style="display:none">
+        <center>
+        <h1 class="w3-animate-bottom" style="font-weight: 700">Yoohyeon</h1>
+        </center>
+
+        <div class="w3-col s1 w3-animate-right">
+            <div class=" w3-gray w3-round-xlarge transition" style=" margin-left: 60%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <a href="https://id.wikipedia.org/wiki/Kim_Yoo-hyeon" class="w3-button w3-round-xxlarge w3-card-4 w3-black" style="padding: 0 ; margin-left:150% ;position: absolute;"><img src="Yoohyeon.jpeg" alt="Yoohyeon" width="350px" ></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-left">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 100%; margin-left: 110%; margin-top: 20%">
+                <div class="w3-container w3-left-align">
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%"> Nama panggung : Yoohyeon (유현)<br> Nama asli : Kim Yoo Hyeon (김유현)<br> Lahir : 7 Januari 1997 <br> Posisi : Lead vocalist, Center<br> Kebangsaan : Korea <br> <font color="red">Nightmare : Mazeophobia </font><br> Instagram : <a href="https://www.instagram.com/ms.yoohyeonkim?igsh=MXYwZnNnMmRtcDllbQ==">ms.yoohyeonkim</a> </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Dami" class="w3-container kota" style="display:none">
+        <center>
+        <h1 class="w3-animate-fading" style="font-weight: 700">Dami</h1>
+        </center>
+
+        <div class="w3-col s1 w3-animate-left">
+            <div class=" w3-gray w3-round-xlarge transition" style=" margin-left: 100%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <a href="https://id.wikipedia.org/wiki/Dami" class="w3-button w3-round-xxlarge w3-card-4 w3-black" style="padding: 0 ; margin-left:350% ;position: absolute;"><img src="Dami.jpeg" alt="Dami" width="350px" ></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-right">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 100%; margin-left: 160%; margin-top: 10%">
+                <div class="w3-container w3-left-align">
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%"> Nama panggung : Dami (다미)<br> Nama asli : Lee Yu Bin (이유빈)<br> Lahir : 7 Maret 1997 <br> Posisi : Main rapper, Lead dancer, Sub vocalist<br> Kebangsaan : Korea <br> <font color="red">Nightmare : Oulinophobia or Agliophobia </font><br> Instagram : <a href="https://www.instagram.com/00ld_ami?igsh=M3p4OHR6dGxseDZh">00ld_ami</a> </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Gahyeon" class="w3-container kota w3-animate-bottom" style="display:none">
+        <center>
+        <h1 class="w3-animate-zoom" style="font-weight: 700">Gahyeon</h1>
+        </center>
+
+        <div class="w3-col s1 w3-animate-right">
+            <div class=" w3-gray w3-round-xlarge transition" style=" margin-left: 100%">
+                <div class="w3-container w3-left-align">
+                    <center>
+                    <a href="https://id.wikipedia.org/wiki/Lee_Ga-hyeon" class="w3-button w3-round-xxlarge w3-card-4 w3-black" style="padding: 0 ; margin-left:350% ;position: absolute;"><img src="Gahyeon.jpeg" alt="Gahyeon" width="350px" ></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s4 w3-animate-left">
+            <div class="w3-card-4 w3-gray w3-hover-black w3-round-xlarge transition" style="width: 100%; margin-left: 5%; margin-top: 10%">
+                <div class="w3-container w3-left-align">
+                    <h1 class="w3-xlarge" style="font-weight: 700; margin-left: 10%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%"> Nama panggung : Gahyeon (가현)<br> Nama asli : Lee Ga Hyeon (이가현)<br> Lahir : 3 Februari 1999 <br> Posisi : Lead rapper, Sub vocalist, Maknae, Visual<br> Kebangsaan : Korea <br> <font color="red">Nightmare :  Basophobia</font><br> Instagram : <a href="https://www.instagram.com/fox._.zzlo_?igsh=MXNzNW42eG9vN3E5aQ==">fox._.zzlo_</a> </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <script>
+    function openKota(namaKota)
+    {
+        var i;
+        var x = document.getElementsByClassName("kota");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(namaKota).style.display = "block";
+    }
+    </script>
+</html>
